@@ -13,3 +13,7 @@ def about(request):
 
 def Game(request):
     return render(request,'root/Game.html')
+
+
+def date(request):
+    return render (request,'root/date.html')

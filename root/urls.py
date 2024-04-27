@@ -9,5 +9,6 @@ urlpatterns=[
     path('',home),
     path('contact/',contact),
     path('about/',about),
-    path('game/',Game)
+    path('game/',Game),
+    path('date/',date),
 ]
