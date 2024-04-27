@@ -10,5 +10,5 @@ urlpatterns=[
     path('contact/',contact),
     path('about/',about),
     path('game/',Game),
-    path('date/',date),
+    path('jok',jok),
 ]
