@@ -2,13 +2,13 @@ from django.http import HttpResponse
 from django.urls import path
 from .views import *
 
-
+app_name='root'
 
 
 urlpatterns=[
-    path('',home),
-    path('contact/',contact),
-    path('about/',about),
-    path('game/',Game),
-    path('jok',jok),
+    path('',home,name='home'),
+    path('contact/',contact,name='contact'),
+    path('about/',about,name='about'),
+    
+    
 ]
