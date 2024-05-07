@@ -1,14 +1,9 @@
-from django.http import HttpResponse
 from django.urls import path
 from .views import *
 
-app_name='root'
+app_name = 'root'
 
-
-urlpatterns=[
-    path('',home,name='home'),
-    path('contact/',contact,name='contact'),
-    path('about/',about,name='about'),
-    
-    
+urlpatterns = [
+    path('',index,name='index'),
+    path('portfolio/',portfolio,name='portfolio'),
 ]
